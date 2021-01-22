@@ -8,7 +8,7 @@ class Shoe
     if :condition == "new"
     puts "Your shoe is as good as new!"
     elsif :condition == "old"
-      :condition = "new"
+      :condition == "new"
     end 
   end 
 end 
