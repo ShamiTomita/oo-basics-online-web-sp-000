@@ -7,7 +7,7 @@ class Shoe
   def cobble
     puts "Your shoe is as good as new!"
     if :condition == "old"
-      :condition == "new"
+      :condition = "new"
     end 
   end 
 end 
